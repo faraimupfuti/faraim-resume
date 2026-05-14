@@ -1,5 +1,12 @@
-streamlit==1.31.0
-pandas==2.1.4
-numpy==1.26.3
-plotly==5.18.0
-Pillow==10.2.0
+# In your local faraim-resume folder:
+# Replace requirements.txt content with:
+streamlit>=1.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.0.0
+Pillow>=10.0.0
+
+# Then push:
+git add requirements.txt
+git commit -m "Fix: Update package versions for Python 3.14 compatibility"
+git push
