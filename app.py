@@ -316,9 +316,10 @@ if page == "🏠 Home":
                 advanced deep learning, cloud computing, and bioinformatics techniques.
             </p>
             <p style="font-size: 1.1rem; line-height: 1.8; color: #4a5568;">
-                Currently working as a <strong>Data Scientist at Citadel Analytics</strong>, developing AI-powered fraud detection 
-                systems for enterprise clients. Proven track record of delivering 20+ ML projects across healthcare AI, 
-                computer vision, NLP, and data analytics domains.
+                Currently working as a <strong>Bioinformatics Scientist at Afrogenomics</strong>, building clinical 
+                genomics pipelines for oncology and rare disease analysis. Previously a <strong>Data Scientist at Citadel Analytics</strong>, 
+                developing AI-powered fraud detection systems for enterprise clients. Proven track record of delivering 20+ ML projects 
+                across healthcare AI, computer vision, NLP, and data analytics domains.
             </p>
         </div>
     """, unsafe_allow_html=True)
@@ -354,9 +355,9 @@ elif page == "👤 About":
                 natural language processing, predictive analytics, and real-time ML systems.
             </p>
             <p style="font-size: 1.1rem; line-height: 1.8; color: #4a5568;">
-                Currently, I'm leveraging my skills at <strong>Citadel Analytics</strong> to build sophisticated 
-                fraud detection systems using cutting-edge machine learning algorithms, helping organizations 
-                protect themselves against financial crimes.
+                Currently, I'm leveraging my skills at <strong>Afrogenomics</strong> to build clinical genomics pipelines 
+                for oncology and rare disease analysis. Previously, at <strong>Citadel Analytics</strong>, I built fraud detection 
+                systems using machine learning, helping organizations protect themselves against financial crimes.
             </p>
         </div>
     """, unsafe_allow_html=True)
@@ -394,20 +395,44 @@ elif page == "💼 Experience":
     st.markdown("<div class='section-card'>", unsafe_allow_html=True)
     st.markdown("<h2 class='section-title'>💼 Professional Experience</h2>", unsafe_allow_html=True)
     
-    # Current role at Citadel Analytics
+    # Current role at Afrogenomics
+    st.markdown("""
+        <div class="experience-card">
+            <div class="experience-title">🧬 Bioinformatics Scientist</div>
+            <div class="experience-company">Afrogenomics</div>
+            <div class="experience-period">Jun 2025 - Present</div>
+            <ul style="color: #4a5568; line-height: 1.8;">
+                <li>Designed, built, and maintained 3 clinical bioinformatics pipelines in Nextflow and Snakemake, supporting both oncology (somatic) and rare disease (germline) analysis</li>
+                <li>Deployed and operated pipelines on AWS Batch and AWS HealthOmics, enabling scalable, reproducible execution of genomic workflows</li>
+                <li>Implemented HIPAA-compliant handling of protected health information (PHI), including secure data storage and access practices</li>
+                <li>Containerized analysis tools with Docker to ensure reproducible, portable pipeline environments</li>
+                <li>Collaborated with clinical and laboratory teams to support variant interpretation and pipeline requirements</li>
+            </ul>
+            <div>
+                <span class="skill-badge">Nextflow</span>
+                <span class="skill-badge">Snakemake</span>
+                <span class="skill-badge">AWS HealthOmics</span>
+                <span class="skill-badge">AWS Batch</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">Clinical Genomics</span>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    # Previous role at Citadel Analytics
     st.markdown("""
         <div class="experience-card">
             <div class="experience-title">🔍 Data Scientist</div>
             <div class="experience-company">Citadel Analytics</div>
-            <div class="experience-period">May 2025 - Present</div>
+            <div class="experience-period">Apr 2025 - Jun 2025</div>
             <ul style="color: #4a5568; line-height: 1.8;">
-                <li>Develop and deploy machine learning models for fraud detection and financial crime prevention</li>
-                <li>Build anomaly detection systems using advanced ML algorithms (XGBoost, Random Forest, Neural Networks)</li>
-                <li>Analyze large-scale transaction data to identify suspicious patterns and behaviors</li>
-                <li>Create real-time fraud scoring models integrated with client systems</li>
-                <li>Collaborate with cross-functional teams to implement AI-driven security solutions</li>
-                <li>Optimize model performance and reduce false positive rates through iterative refinement</li>
-                <li>Present findings and insights to clients through data visualizations and reports</li>
+                <li>Developed and deployed machine learning models for fraud detection and financial crime prevention</li>
+                <li>Built anomaly detection systems using advanced ML algorithms (XGBoost, Random Forest, Neural Networks)</li>
+                <li>Analyzed large-scale transaction data to identify suspicious patterns and behaviors</li>
+                <li>Created real-time fraud scoring models integrated with client systems</li>
+                <li>Collaborated with cross-functional teams to implement AI-driven security solutions</li>
+                <li>Optimized model performance and reduced false positive rates through iterative refinement</li>
+                <li>Presented findings and insights to clients through data visualizations and reports</li>
             </ul>
             <div>
                 <span class="skill-badge">Fraud Detection</span>
@@ -420,12 +445,37 @@ elif page == "💼 Experience":
         </div>
     """, unsafe_allow_html=True)
     
+    # Voltsage Solutions role
+    st.markdown("""
+        <div class="experience-card">
+            <div class="experience-title">🐍 Senior Software Developer (Python)</div>
+            <div class="experience-company">Voltsage Solutions</div>
+            <div class="experience-period">Jan 2025 - Mar 2025</div>
+            <ul style="color: #4a5568; line-height: 1.8;">
+                <li>Designed and developed scalable backend services using Python and Django, supporting 12,000+ concurrent users</li>
+                <li>Integrated third-party APIs and payment gateways, reducing transaction processing time by 35%</li>
+                <li>Optimized PostgreSQL queries and implemented Redis caching, resulting in a 40% decrease in server response times</li>
+                <li>Containerized applications using Docker and orchestrated deployment via AWS ECS, cutting deployment time by 50%</li>
+                <li>Wrote unit and integration tests using PyTest, achieving 85% code coverage and reducing production bugs by 30%</li>
+                <li>Collaborated with frontend developers and product managers in an Agile environment to define feature requirements and sprint goals, improving sprint delivery rate by 20%</li>
+            </ul>
+            <div>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Django</span>
+                <span class="skill-badge">PostgreSQL</span>
+                <span class="skill-badge">Redis</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">AWS ECS</span>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+    
     # Previous role at Innovent
     st.markdown("""
         <div class="experience-card">
             <div class="experience-title">📊 Data Analyst</div>
             <div class="experience-company">Innovent South Africa</div>
-            <div class="experience-period">2022 - 2025</div>
+            <div class="experience-period">2022 - Dec 2024</div>
             <ul style="color: #4a5568; line-height: 1.8;">
                 <li>Systematically collected, processed, and performed statistical analyses on large datasets</li>
                 <li>Extracted practical insights and communicated findings effectively to stakeholders</li>
@@ -548,7 +598,7 @@ elif page == "🎓 Education":
         <div class="experience-card" style="border-left: 4px solid #0078d4;">
             <div class="experience-title">☁️ Azure Data Scientist Associate</div>
             <div class="experience-company">Microsoft</div>
-            <div class="experience-period">2025</div>
+            <div class="experience-period">2024</div>
             <p style="color: #4a5568; line-height: 1.8; margin-top: 1rem;">
                 Certified in designing and implementing data science solutions on Azure cloud platform. 
                 Expertise in Azure ML, automated ML, model deployment, and MLOps practices.
@@ -825,7 +875,7 @@ elif page == "🛠️ Skills":
             **Cloud & Data Platforms**
             <div>
             """ + "".join([f'<span class="skill-badge">{s}</span>' for s in 
-                          ["Azure ML", "AWS", "Databricks", "Synapse", "Power BI", "Looker"]]) + """
+                          ["Azure ML", "AWS", "Databricks", "Synapse", "Power BI", "Looker", "AWS HealthOmics", "AWS Batch"]]) + """
             </div>
         """, unsafe_allow_html=True)
     
@@ -834,7 +884,7 @@ elif page == "🛠️ Skills":
             **Specialized Skills**
             <div>
             """ + "".join([f'<span class="skill-badge">{s}</span>' for s in 
-                          ["Fraud Detection", "Computer Vision", "NLP", "Bioinformatics", "Healthcare AI", "Drug Discovery"]]) + """
+                          ["Fraud Detection", "Computer Vision", "NLP", "Bioinformatics", "Healthcare AI", "Drug Discovery", "Nextflow", "Snakemake", "Django"]]) + """
             </div>
         """, unsafe_allow_html=True)
     
@@ -917,7 +967,7 @@ st.markdown("""
     <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
                 border-radius: 15px; color: white;">
         <p style="margin: 0; font-size: 1.1rem; font-weight: 500;">
-            © 2025 Farai Mupfuti | Data Scientist | ML Engineer | Bioinformatics Specialist
+            © 2026 Farai Mupfuti | Data Scientist | ML Engineer | Bioinformatics Specialist
         </p>
         <p style="margin-top: 0.5rem; opacity: 0.9;">
             🎯 Building AI Solutions for Healthcare, Finance & Beyond
