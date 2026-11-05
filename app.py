@@ -475,7 +475,7 @@ elif page == "💼 Experience":
         <div class="experience-card">
             <div class="experience-title">📊 Data Analyst</div>
             <div class="experience-company">Innovent South Africa</div>
-            <div class="experience-period">2022 - Dec 2024</div>
+            <div class="experience-period">Jan 2022 - Dec 2024</div>
             <ul style="color: #4a5568; line-height: 1.8;">
                 <li>Systematically collected, processed, and performed statistical analyses on large datasets</li>
                 <li>Extracted practical insights and communicated findings effectively to stakeholders</li>
@@ -496,12 +496,36 @@ elif page == "💼 Experience":
         </div>
     """, unsafe_allow_html=True)
     
+    # Spadeworks Automation role
+    st.markdown("""
+        <div class="experience-card">
+            <div class="experience-title">🤖 Software Developer (Automation Specialist)</div>
+            <div class="experience-company">Spadeworks Automation</div>
+            <div class="experience-period">Aug 2021 - Dec 2021</div>
+            <ul style="color: #4a5568; line-height: 1.8;">
+                <li>Designed, developed, and maintained scalable test automation frameworks using Robot Framework, writing modular Python code to create reusable keywords and libraries</li>
+                <li>Created and executed automated test scripts across Web UI (Selenium/Playwright), RESTful APIs (JSON/XML validation via RequestsLibrary), and backend databases (SQL data verification)</li>
+                <li>Integrated automation suites into CI/CD pipelines (Jenkins, GitLab CI/CD, GitHub Actions) for continuous testing, nightly builds, and rapid feedback on pull requests</li>
+                <li>Monitored test runs, analyzed logs, debugged flaky tests, and triaged failures; logged detailed defect reports in Jira in collaboration with development teams</li>
+                <li>Worked with developers, product managers, and manual QA to identify automation candidates, define test strategy, and cover acceptance criteria and regression suites</li>
+            </ul>
+            <div>
+                <span class="skill-badge">Robot Framework</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Selenium</span>
+                <span class="skill-badge">Playwright</span>
+                <span class="skill-badge">REST API Testing</span>
+                <span class="skill-badge">CI/CD</span>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+
     # System Administrator role
     st.markdown("""
         <div class="experience-card">
             <div class="experience-title">⚙️ System Administrator</div>
             <div class="experience-company">Qrent Zimbabwe</div>
-            <div class="experience-period">2017 - 2022</div>
+            <div class="experience-period">2017 - Jul 2021</div>
             <ul style="color: #4a5568; line-height: 1.8;">
                 <li>Administered enterprise IT infrastructure with Windows and Linux servers</li>
                 <li>Established robust security frameworks and conducted proactive system monitoring</li>
